@@ -1,0 +1,25 @@
+#dictionary 
+student_marks= {
+    "John": 75,
+    "Karam" : 85,
+    "Leon" : 90
+}
+print(student_marks["Karam"])
+
+student_marks_2  = {"Nazmul": 80, "Sara":75, "Lara": 60}
+
+print(f"Nazmul's Mark is: {student_marks_2["Nazmul"]}")
+
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+car.update({"brand": "Mercedes-Benz", "model": "AMG" })
+car["color"]="Blue"
+def print_dict(cars):
+    print(f"Brand : {cars["brand"]}") 
+    print(f"Model : {cars["model"]}")
+    print(f"Year : {cars["year"]}")
+    print(f"Color : {cars["color"]}")
+print_dict(car)
